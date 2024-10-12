@@ -9,6 +9,7 @@ Below are the projects I'm working on. Each project is in its own folder and inc
 | Project Name      | Description                                                                 | Technologies Used      |
 |-------------------|-----------------------------------------------------------------------------|------------------------|
 | **to-do-list-app**| A simple to do list app built using vanilla js                              | HTML, CSS, JavaScript  |
+| **quiz-app**      | Basic quiz game app                            | HTML, CSS, JavaScript  |
 
 ## 🛠️ Skills & Technologies
 
