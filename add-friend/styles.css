@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body,html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: powderblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+  height: 400px;
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 25px;
+  text-align: center;
+}
+
+.card img{
+  height: 55%;
+  width: 100%;
+  margin-bottom: 10px;
+  object-fit:cover;
+  object-position:center ;
+  object-position:center ;
+  border-radius: 10px;
+}
+
+.card h5{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.card button{
+  padding: 10px;
+  margin: 20px;
+  font-family: sans-serif;
+  font-size: 15px;
+  background-color: powderblue;
+  border-radius: 15px;
+  border: none;
+}
