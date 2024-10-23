@@ -6,14 +6,14 @@ Welcome to my frontend web development practice repository! This is where I buil
 
 Below are the projects I'm working on. Each project is in its own folder and includes all the necessary files (HTML, CSS, JS) to run.
 
-| Project Name      | Description                                                                 | Technologies Used      |
-|-------------------|-----------------------------------------------------------------------------|------------------------|
-| **basic-hero-section**| A simple hero section design                             | HTML, CSS  |
-| **basic-landing-page**| A simple landing page design                             | HTML, CSS  |
-| **to-do-list-app**| A simple to do list app built using vanilla js                              | HTML, CSS, JavaScript  |
-| **quiz-app**      | Basic quiz game app                            | HTML, CSS, JavaScript  |
-| **add-friend**      | Mini project to learn DOM basics                           | HTML, CSS, JavaScript  |
-| **music-player**      | Music player with basic functionalities                         | HTML, CSS, JavaScript  |
+| S. No. | Project Name          | Description                                                                                      | Technologies Used       |
+|--------|-----------------------|--------------------------------------------------------------------------------------------------|-------------------------|
+| 1      | **Basic Hero Section** | A responsive hero section design for showcasing key information on a webpage.                    | HTML, CSS               |
+| 2      | **Basic Landing Page** | A landing page design to demonstrate modern web layout principles.              | HTML, CSS               |
+| 3      | **To-Do List App**     | A to-do list application built using vanilla JavaScript for managing tasks efficiently.   | HTML, CSS, JavaScript    |
+| 4      | **Quiz App**           | A simple interactive quiz game application with score tracking functionality.                    | HTML, CSS, JavaScript    |
+| 5      | **Add Friend**         | A mini project focused on learning and manipulating the DOM using JavaScript.                    | HTML, CSS, JavaScript    |
+| 6      | **Music Player**       | A functional music player with essential playback features for an enhanced user experience.      | HTML, CSS, JavaScript    |
 
 ## 🛠️ Skills & Technologies
 
