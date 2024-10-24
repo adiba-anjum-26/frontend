@@ -20,6 +20,7 @@ Below are the projects I'm working on. Each project is in its own folder and inc
 
 - **HTML5**: Semantics, Forms, Media elements
 - **CSS3**: Flexbox, Grid, Animations, Responsive Design
+- **Tailwind CSS**: Utility-first framework, Responsive Design, Customization
 - **JavaScript**: DOM Manipulation, Event Handling, ES6+, Asynchronous JS
 - **Version Control**: Git
 
