@@ -10,10 +10,11 @@ Below are the projects I'm working on. Each project is in its own folder and inc
 |--------|-----------------------|--------------------------------------------------------------------------------------------------|-------------------------|
 | 1      | **Basic Hero Section** | A responsive hero section design for showcasing key information on a webpage.                    | HTML, CSS               |
 | 2      | **Basic Landing Page** | A landing page design to demonstrate modern web layout principles.              | HTML, CSS               |
-| 3      | **To-Do List App**     | A to-do list application built using vanilla JavaScript for managing tasks efficiently.   | HTML, CSS, JavaScript    |
-| 4      | **Quiz App**           | A simple interactive quiz game application with score tracking functionality.                    | HTML, CSS, JavaScript    |
-| 5      | **Add Friend**         | A mini project focused on learning and manipulating the DOM using JavaScript.                    | HTML, CSS, JavaScript    |
-| 6      | **Music Player**       | A functional music player with essential playback features for an enhanced user experience.      | HTML, CSS, JavaScript    |
+| 3      | **Tailwind Landing Page** | A landing page design made using tailwind CSS             | HTML, Tailwind-CSS               |
+| 4      | **To-Do List App**     | A to-do list application built using vanilla JavaScript for managing tasks efficiently.   | HTML, CSS, JavaScript    |
+| 5      | **Quiz App**           | A simple interactive quiz game application with score tracking functionality.                    | HTML, CSS, JavaScript    |
+| 6      | **Add Friend**         | A mini project focused on learning and manipulating the DOM using JavaScript.                    | HTML, CSS, JavaScript    |
+| 7      | **Music Player**       | A functional music player with essential playback features for an enhanced user experience.      | HTML, CSS, JavaScript    |
 
 ## 🛠️ Skills & Technologies
 
