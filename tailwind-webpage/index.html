@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>tailwind-webpage</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Birthstone&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
 
-<script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Birthstone&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body class="bg-pink-100">
-  <div class="main w-screen h-screen" >
+  <div class="main w-screen h-screen">
     <nav class="flex items-center justify-between px-10 py-6">
       <h1 class="font-[Birthstone] text-6xl font-bold">Zestwax</h1>
       <div class="nav-right w-1/2 flex justify-between font-[roboto] font-medium">
@@ -26,35 +35,91 @@
     </nav>
 
     <div class="hero h-3/4 w-screen flex">
-      <div class="left-hero w-1/2 h-full flex items-center justify-center">
-        <img src="./images/Untitled_design-removebg-preview.png" alt="">
+      <div class="left-hero w-1/2 h-full flex items-center justify-center bg-[url('https://images.unsplash.com/photo-1619799360851-a143fbc240b3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]  bg-cover bg-bottom">
       </div>
       <div class="right-hero w-1/2 h-full flex flex-col gap-2 font-[roboto] justify-center items-center">
-        <h1 class="font-[Birthstone] text-9xl mb-10">brighten up</h1>
+        <h1 class="font-[Birthstone] text-9xl mb-10">Brighten up</h1>
         <h3 class="font-[roboto] font-semibold">ZESTWAX BRINGS YOU VIBRANT CANDLES MADE WITH HEART</h3>
         <H3 class="font-[roboto] font-semibold">DESIGNED TO MAKE YOUR HOME GLOW.</H3>
       </div>
     </div>
     <div class="bottom-bar w-screen h-16 bg-yellow-500 flex justify-center items-center">
-      <h3 class="font-[roboto] font-medium tracking-wider text-2xl ">HANDMADE SCENTED AND UNSCENTED CANDLES MAKE IN MELBUORNE, AUSTRALIA</h3>
+      <h3 class="font-[roboto] font-medium tracking-wider text-2xl ">HANDMADE SCENTED AND UNSCENTED CANDLES MAKE IN
+        MELBUORNE, AUSTRALIA</h3>
     </div>
-  
-    <div class="shop-now flex justify-between items-center">
-      <div class="left-shop w-1/4 h-96">
-        <img class="h-2/3 w-2/3 object-cover object-top rounded-full" src="https://plus.unsplash.com/premium_photo-1676043248932-80cec91c242e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+
+    <div class="shop flex justify-between items-center mt-20 mb-20 font-[roboto] font-medium text-2xl">
+      <div class="left-shop w-1/4 h-96 p-7 flex flex-col items-center justify-between">
+        <img class="h-64 w-64 object-cover object-top rounded-full"
+          src="https://plus.unsplash.com/premium_photo-1676043248932-80cec91c242e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="">
         <h3>Shaped</h3>
       </div>
-      <div class="middle-shop w-1/4 h-96">
-        <img class="h-64 w-64 object-cover object-top rounded-full" src="https://plus.unsplash.com/premium_photo-1677221922676-1240c76dc959?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-        <h3></h3>
+      <div class="middle-shop w-1/4 h-96 p-7 flex flex-col items-center justify-between">
+        <img class="h-64 w-64 object-cover object-top rounded-full"
+          src="https://plus.unsplash.com/premium_photo-1677221922676-1240c76dc959?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="">
+        <h3>Vessels</h3>
       </div>
-      <div class="right-shop w-1/4 h-96">
-        <img class="h-64 w-64 object-cover object-top rounded-full" src="https://plus.unsplash.com/premium_photo-1670426501344-06e127282712?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-        <h3></h3>
+      <div class="right-shop w-1/4 h-96 p-7 flex flex-col items-center justify-between">
+        <img class="h-64 w-64 object-cover object-center rounded-full"
+          src="https://plus.unsplash.com/premium_photo-1670426501344-06e127282712?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="">
+        <h3>Tapered</h3>
       </div>
-      <div class="shop bg-pink-300 w-24 h-96"></div>
+      <div class="left-shop w-1/4 h-96 p-7 flex flex-col items-center justify-between">
+        <img class="h-64 w-64 object-cover object-top rounded-full"
+          src="https://plus.unsplash.com/premium_photo-1676043248932-80cec91c242e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="">
+        <h3>Shaped</h3>
+      </div>
     </div>
-  </div> 
-  
+
+    <div class="blue-section w-full h-96 bg-purple-200 flex justify-center items-center">
+      <div class="left-blue w-1/2 h-full p-10">
+        <h1 class="font-[Birthstone] text-6xl font-semibold tracking-wider">Warm glows</h1>
+        <h1 class="font-[Birthstone] text-6xl font-semibold mb-5 tracking-wider">Fuzzy feels...</h1>
+        <h3 class="font-[roboto] mb-5 tracking-wider">Welcome to Zestwax</h3>
+        <h3 class="font-[roboto] mb-2 tracking-wider">We're a home spun business dedicated to bringing light and style to your home... no matter your home aesthetics.</h3>
+        <h3 class="font-[roboto] tracking-wider">We craft and shape each of our candles by hand using our unique method, uniting the best in natural and sustainable ingredients.</h3>
+      </div>
+      <div class="right-blue w-1/2 h-full bg-[url('https://images.unsplash.com/photo-1603905179139-db12ab535ca9?q=80&w=1937&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-top"></div>
+    </div>
+
+    <div class="bottom-bar bg-yellow-500 w-screen h-16 flex justify-center items-center">
+      <h3 class="font-[roboto] font-medium tracking-wider text-2xl ">HANDMADE SCENTED AND UNSCENTED CANDLES MAKE IN
+        MELBUORNE, AUSTRALIA</h3>
+    </div>
+
+    <div class="footer w-full h-96 bg-rose-300 flex">
+      <div class="left-foot w-1/3 h-full bg-pink-200  flex items-center justify-center">
+        <img 
+       class="h-full" src="./images/zest_candle-removebg-preview.png" alt="">
+      </div>
+      <div class="right-foot w-2/3 h-full p-8 flex justify-between items-center">
+        <div class="sec1">
+          <h3 class="font-[Roboto] text-xl text-center pl-5">ZESTY, VIBRANT CANDLES <br> WITH <span class="font-[Birthstone] text-3xl">heart</span></h3>
+        </div>
+        <div class="sec2  leading-10 relative">
+          <i class="ri-gemini-fill text-center text-white text-5xl"></i>
+          <h2 class="font-[Birthstone] text-3xl font-semibold ">QUICK LINKS</h2>
+          <h3 class="font-[roboto]">CONTACT</h3>
+          <h3 class="font-[roboto]">ABOUT</h3>
+          <h3 class="font-[roboto]">SHOP NOW</h3>
+          <i class="ri-gemini-fill text-center text-white text-5xl absolute bottom-9 right-0"></i>
+        </div>
+        <div class="sec2  leading-10 relative">
+          <i class="ri-gemini-fill text-center text-white text-5xl"></i>
+          <h2 class="font-[Birthstone] text-3xl font-semibold ">QUICK LINKS</h2>
+          <h3 class="font-[roboto]">CONTACT</h3>
+          <h3 class="font-[roboto]">ABOUT</h3>
+          <h3 class="font-[roboto]">SHOP NOW</h3>
+          <i class="ri-gemini-fill text-center text-white text-5xl absolute bottom-0 right-32"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </body>
+
 </html>
